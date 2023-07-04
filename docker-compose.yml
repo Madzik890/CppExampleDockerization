@@ -4,6 +4,7 @@ services:
   webservice:
     ports:
       - "8088:8088"
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
