@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  webservice:
+    ports:
+      - "8088:8088"
+    build:
+      context: .
+      dockerfile: Dockerfile
